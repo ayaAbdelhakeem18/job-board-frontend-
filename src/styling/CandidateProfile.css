@@ -1,0 +1,149 @@
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+
+}
+
+.profile-header {
+    background-color: white;
+    color: #ea5a15;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-header h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+.profile-info p{
+    padding: 5px;
+}
+.profile-info p span{
+    font-weight: bold;
+}
+
+.profile-info h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* color: #ea5a15; */
+}
+
+.edit-button {
+    background-color: #ea5a15;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.edit-button a{
+    color: white;
+}
+
+.recent-activity {
+    margin-top: 30px;
+}
+.recent-activity h3 {
+    margin-bottom: 40px;
+}
+
+.activity-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.activity-item span{
+  color: #ea5a15;
+}
+/* edit-profile form */
+
+.edit-form-container {
+    z-index: 10;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+  }
+  .positioning{
+    position: absolute;
+    width: 600px;
+    top: 10px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.8); /* Light grey with 0.5 opacity */
+    z-index: 5;
+  }
+  
+  
+  .edit-form-container h3 {
+    text-align: center;
+    color: #ea5a15;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #ea5a15;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d14100;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #545b62;
+  }
+  
